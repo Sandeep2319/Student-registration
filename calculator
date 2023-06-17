@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple calculator</title>
+    </head>
+    <body>
+        <h1>Calculator</h1>
+        <form action="calculator" name ="calculator">
+            <table>
+                <tr>
+                    <td colspan="50"><input type="text" id="display" ></td>
+                </tr>
+                    <td><input type="button" value="1"></td>
+                    <td><input type="button" value="2"></td>
+                    <td><input type="button" value="3"></td>
+                    <td><input type="button" value="+"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="4"></td>
+                    <td><input type="button" value="5"></td>
+                    <td><input type="button" value="6"></td>
+                    <td><input type="button" value="-"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="7"></td>
+                    <td><input type="button" value="8"></td>
+                    <td><input type="button" value="9"></td>
+                    <td><input type="button" value="*"></td>
+                </tr>
+                <tr>
+                    <td><input type="button" value="C"></td>
+                    <td><input type="button" value="0"></td>
+                    <td><input type="button" value="="></td>
+                    <td><input type="button" value="/"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
